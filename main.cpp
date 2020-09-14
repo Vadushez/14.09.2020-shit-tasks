@@ -20,6 +20,7 @@
 #define данетнаверное <=
 #define многа >
 #define матеша +
+#define минуснуло -
 #define числище double
 #define копаем sqrt
 #define западня switch
@@ -93,7 +94,25 @@ void task8(){
   }
 
 }
+void task9(){
+  числище a,b;
+  чиселко c;
+  базарь "Введите A,B>=0 & C = [0,1,2,3]";
+  базарю a;
+  базарю b;
+  базарю c;
+  switch(c){
+    case 0: базарь a матеша b;
+    break;
+    case 1: базарь a минуснуло b;
+    break;
+    case 2: базарь a*b;
+    break;
+    case 3: базарь a/b;
+    break;
+  }
+}
 
 int main() {
-  task8();
+  task9();
 }
