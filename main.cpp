@@ -10,11 +10,25 @@
 #define чееще &&
 #define почемутак else
 #define мутим for
+#define илитак ||
+#define четко =
+#define ещебазарь <<
+#define снова <<endl
 
 
 #include <iostream>
 
 using namespace std;
 int main() {
-  
+  чиселко a,b;
+  базарь"Введите a" снова;
+  базарю a;
+  базарь"Введите b" снова;
+  базарю b;
+  a четко a+b;
+  b четко a-b;
+  a четко a-b;
+  базарь"a= " ещебазарь a ещебазарь " " ещебазарь "b= " ещебазарь b;
+
+
 }
